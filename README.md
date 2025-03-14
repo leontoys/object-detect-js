@@ -15,7 +15,7 @@ A simple web app that leverages **Transformers.js** to perform **object detectio
 
 ## 🛠 Tech Stack
 
-- React
+- HTML5 & CSS
 - JavaScript (ES6+)
 - Transformers.js (by Hugging Face)
 
