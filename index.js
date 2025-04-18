@@ -55,6 +55,9 @@ fileUpload.addEventListener("change", (event) => {
 
 const detect = async (image) => {
   status.textContent = "Analysing...";
+  // Clear previous boxes
+  const boxes = imageContainer.querySelectorAll(".bounding-box");
+  boxes.forEach((box) => box.remove());
   //call detector
   const output = await detector(image.src, {
     threshold: 0.5, //confidence level , the lower the level more objects it will
