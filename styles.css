@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: lightgray;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
@@ -56,21 +56,23 @@ body {
 
 #image-container>img{
     width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
-.bounding-box{
+.bounding-box {
     position: absolute;
     box-sizing: border-box;
     border-width: 2px;
     border-style: solid;
 }
 
-.bounding-box-label{
-    color : white;
+.bounding-box-label {
+    color: white;
     position: absolute;
     font-size: 12px;
-    margin-top : -16px;
-    margin-left : -2px;
+    margin-top: -16px;
+    margin-left: -2px;
     padding: 1px;
 }
 
